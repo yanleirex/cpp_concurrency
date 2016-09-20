@@ -1,0 +1,8 @@
+add_executable(thread_object_main1 thread_object_main1.cpp)
+target_link_libraries(thread_object_main1 boost_thread boost_system)
+
+add_executable(thread_object_main2 thread_object_main2.cpp)
+target_link_libraries(thread_object_main2 boost_thread boost_system)
+
+add_executable(thread_object_main3 thread_object_main3.cpp)
+target_link_libraries(thread_object_main3 pthread)

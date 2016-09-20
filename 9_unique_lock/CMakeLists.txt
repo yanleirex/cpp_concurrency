@@ -1,0 +1,2 @@
+add_executable(unique_locl_main1 unique_locl_main1.cpp)
+target_link_libraries(unique_locl_main1 pthread)

@@ -1,0 +1,2 @@
+add_executable(accumulate1 accumulate1.cpp)
+target_link_libraries(accumulate1 pthread)

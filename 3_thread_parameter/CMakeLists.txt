@@ -1,0 +1,2 @@
+add_executable(thread_parameter_1 thread_parameter_1.cpp)
+target_link_libraries(thread_parameter_1 boost_thread boost_system)

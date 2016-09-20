@@ -1,0 +1,2 @@
+add_executable(deadlock_main1 deadlock_main1.cpp)
+target_link_libraries(deadlock_main1 pthread)
